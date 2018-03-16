@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<recipeAnnotation>
+<TEXT><![CDATA[Avo and Egg 
+
+10
+
+1/2 cup Avo Smash
+2 slices multigrain bread (square Pullman loaf, if possible), toasted
+3 slices heirloom tomato
+1 poached egg
+Pinch of herb salt or flaky sea salt
+1 teaspoon Meyer lemon oil
+1 Meyer lemon wedge
+Fresh herb salad of your choice
+
+Spread Avo Smash on both pieces of toast. Cut one slice in diagonally in half and top the other with tomato slices and the poached egg.
+To serve, slightly separate the halved avo toast and place the other half with the tomato and poached egg on top. Finish the toasts with the herb salt, lemon oil, and a squeeze of Meyer lemon juice. Top with a little fresh herb salad.]]></TEXT>
+<TAGS>
+<Ingredient id="I0" spans="26~35" text="Avo Smash" start_state="YES" composite="NO" />
+<Ingredient id="I1" spans="45~61" text="multigrain bread" composite="NO" start_state="YES" />
+<Ingredient id="I2" spans="115~130" text="heirloom tomato" start_state="YES" composite="NO" />
+<Ingredient id="I3" spans="133~144" text="poached egg" start_state="YES" composite="NO" />
+<Ingredient id="I4" spans="154~163" text="herb salt" start_state="YES" composite="NO" />
+<Ingredient id="I5" spans="173~181" text="sea salt" composite="NO" start_state="YES" />
+<Ingredient id="I6" spans="193~208" text="Meyer lemon oil" start_state="YES" composite="NO" />
+<Ingredient id="I7" spans="217~228" text="lemon wedge" composite="NO" start_state="YES" />
+<Ingredient id="I8" spans="235~245" text="herb salad" start_state="YES" composite="NO" />
+<Ingredient id="I9" spans="269~278" text="Avo Smash" start_state="YES" composite="NO" />
+<Ingredient id="I10" spans="297~302" text="toast" composite="NO" start_state="YES" />
+<Ingredient id="I11" spans="363~369" text="tomato" start_state="YES" composite="NO" />
+<Ingredient id="I12" spans="385~396" text="poached egg" composite="NO" start_state="YES" />
+<Ingredient id="I13" spans="430~446" text="halved avo toast" start_state="NO" composite="YES" />
+<Ingredient id="I14" spans="457~503" text="the other half with the tomato and poached egg" start_state="NO" composite="YES" />
+<Ingredient id="I15" spans="523~529" text="toasts" start_state="NO" composite="YES" />
+<Ingredient id="I16" spans="539~548" text="herb salt" composite="NO" start_state="YES" />
+<Ingredient id="I17" spans="550~559" text="lemon oil" composite="NO" start_state="YES" />
+<Ingredient id="I18" spans="578~595" text="Meyer lemon juice" composite="NO" start_state="YES" />
+<Ingredient id="I19" spans="621~631" text="herb salad" start_state="YES" composite="NO" />
+<Action id="A0" spans="262~268" text="Spread" act_type="Combine" />
+<Action id="A1" spans="304~307" text="Cut" act_type="Cut" />
+<Action id="A2" spans="344~347" text="top" act_type="Combine" />
+<Action id="A3" spans="401~406" text="serve" act_type="Serve" />
+<Action id="A4" spans="417~425" text="separate" act_type="Separate" />
+<Action id="A5" spans="451~456" text="place" act_type="Put" />
+<Action id="A6" spans="512~518" text="Finish" act_type="Combine" />
+<Action id="A7" spans="597~600" text="Top" act_type="Combine" />
+<Quantity id="Q0" spans="18~21" text="1/2"  />
+<Quantity id="Q1" spans="36~37" text="2"  />
+<Quantity id="Q2" spans="106~107" text="3"  />
+<Quantity id="Q3" spans="131~132" text="1"  />
+<Quantity id="Q4" spans="182~183" text="1"  />
+<Quantity id="Q5" spans="209~210" text="1"  />
+<Unit id="U0" spans="22~25" text="cup"  />
+<Unit id="U1" spans="38~44" text="slices"  />
+<Unit id="U2" spans="108~114" text="slices"  />
+<Unit id="U3" spans="184~192" text="teaspoon"  />
+<Unit id="U4" spans="145~150" text="Pinch"  />
+<Flow id="F0" fromID="I9" fromText="Avo Smash" toID="A0" toText="Spread" />
+<Flow id="F1" toID="I10" toText="toast" fromID="A0" fromText="Spread" />
+<Flow id="F2" fromID="A1" fromText="Cut" toID="I13" toText="halved avo toast" />
+<Flow id="F3" fromID="A2" fromText="top" toID="I14" toText="the other half with the tomato and poached egg" />
+<Flow id="F4" fromID="A1" fromText="Cut" toID="A2" toText="top" />
+<Flow id="F5" fromID="I11" fromText="tomato" toID="A2" toText="top" />
+<Flow id="F6" toID="A2" toText="top" fromID="I12" fromText="poached egg" />
+<Flow id="F7" toID="A4" toText="separate" fromID="I13" fromText="halved avo toast" />
+<Flow id="F8" fromID="I14" fromText="the other half with the tomato and poached egg" toID="A5" toText="place" />
+<Flow id="F9" toID="A6" toText="Finish" fromID="I15" fromText="toasts" />
+<Flow id="F10" toID="A6" toText="Finish" fromID="I16" fromText="herb salt" />
+<Flow id="F11" toID="A6" toText="Finish" fromID="I17" fromText="lemon oil" />
+<Flow id="F12" toID="A6" toText="Finish" fromID="I18" fromText="Meyer lemon juice" />
+<Flow id="F13" toID="A7" toText="Top" fromID="A6" fromText="Finish" />
+<Flow id="F14" toID="A7" toText="Top" fromID="I19" fromText="herb salad" />
+<Flow id="F15" toID="A3" toText="serve" fromID="A7" fromText="Top" />
+<Flow id="F16" fromID="A4" fromText="separate" toID="A5" toText="place" />
+<Flow id="F17" fromID="A5" fromText="place" toID="A6" toText="Finish" />
+<Coref id="C0" exp_aID="I0" exp_aText="Avo Smash" exp_bID="I9" exp_bText="Avo Smash" />
+<Coref id="C1" exp_aID="I1" exp_aText="multigrain bread" exp_bID="I10" exp_bText="toast" />
+<Coref id="C2" exp_aID="I2" exp_aText="heirloom tomato" exp_bID="I11" exp_bText="tomato" />
+<Coref id="C3" exp_aID="I3" exp_aText="poached egg" exp_bID="I12" exp_bText="poached egg" />
+<Coref id="C4" exp_aID="I4" exp_aText="herb salt" exp_bID="I16" exp_bText="herb salt" />
+<Coref id="C5" exp_aID="I6" exp_aText="Meyer lemon oil" exp_bID="I17" exp_bText="lemon oil" />
+<Coref id="C6" exp_aID="I7" exp_aText="lemon wedge" exp_bID="I18" exp_bText="Meyer lemon juice" />
+<Coref id="C7" exp_aID="I8" exp_aText="herb salad" exp_bID="I19" exp_bText="herb salad" />
+</TAGS>
+</recipeAnnotation>

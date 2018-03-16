@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<recipeAnnotation>
+<TEXT><![CDATA[Amazing Crusted Chicken
+
+60
+
+2 cups cheese flavored crackers (such as Cheez-It®), crushed
+1 cup French-fried onions, crushed
+1/2 cup Italian bread crumbs
+2 teaspoons sesame seed, toasted
+salt and ground black pepper to taste
+4 skinless, boneless chicken breast halves - cut in half
+3 tablespoons mayonnaise
+
+Preheat oven to 450 degrees F (230 degrees C). Spray a baking dish with cooking spray.
+Mix cheese-flavored crackers, French-fried onions, Italian bread crumbs, sesame seeds, salt, and pepper in a bowl. Set aside.
+Wash and pat chicken breasts dry. Spread a thin layer of mayonnaise on one side of each piece and place mayonnaise-side down in the cracker mixture. Spread a thin layer of mayonnaise on the other side of the chicken and cover with the cracker mixture, patting firmly into the chicken. Place chicken breasts on the prepared baking dish. Sprinkle remaining cracker mixture on top; lightly spray the chicken with cooking spray.
+Bake in the preheated oven until the chicken breasts are no longer pink in the center and the juices run clear, 35 to 40 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).]]></TEXT>
+<TAGS>
+<Ingredient id="I0" spans="36~60" text="cheese flavored crackers" start_state="YES" composite="NO" />
+<Ingredient id="I1" spans="96~115" text="French-fried onions" composite="NO" start_state="YES" />
+<Ingredient id="I2" spans="133~153" text="Italian bread crumbs" start_state="YES" composite="NO" />
+<Ingredient id="I3" spans="166~177" text="sesame seed" composite="NO" start_state="YES" />
+<Ingredient id="I4" spans="187~191" text="salt" start_state="YES" composite="NO" />
+<Ingredient id="I5" spans="203~215" text="black pepper" composite="NO" start_state="YES" />
+<Ingredient id="I6" spans="227~267" text="skinless, boneless chicken breast halves" composite="NO" start_state="YES" />
+<Ingredient id="I7" spans="296~306" text="mayonnaise" composite="NO" start_state="YES" />
+<Ingredient id="I8" spans="399~423" text="cheese-flavored crackers" start_state="YES" composite="NO" />
+<Ingredient id="I9" spans="425~444" text="French-fried onions" start_state="YES" composite="NO" />
+<Ingredient id="I10" spans="446~466" text="Italian bread crumbs" start_state="YES" composite="NO" />
+<Ingredient id="I11" spans="468~480" text="sesame seeds" composite="NO" start_state="YES" />
+<Ingredient id="I12" spans="482~486" text="salt" composite="NO" start_state="YES" />
+<Ingredient id="I13" spans="492~498" text="pepper" start_state="YES" composite="NO" />
+<Ingredient id="I14" spans="534~549" text="chicken breasts" composite="NO" start_state="YES" />
+<Ingredient id="I15" spans="578~588" text="mayonnaise" start_state="YES" composite="NO" />
+<Ingredient id="I16" spans="653~668" text="cracker mixture" start_state="NO" composite="YES" />
+<Ingredient id="I17" spans="693~703" text="mayonnaise" composite="NO" start_state="YES" />
+<Ingredient id="I18" spans="756~771" text="cracker mixture" composite="NO" start_state="NO" />
+<Ingredient id="I19" spans="812~827" text="chicken breasts" composite="NO" start_state="NO" />
+<Ingredient id="I20" spans="876~891" text="cracker mixture" start_state="NO" composite="YES" />
+<Ingredient id="I21" spans="918~925" text="chicken" start_state="NO" composite="YES" />
+<Ingredient id="I22" spans="983~998" text="chicken breasts" start_state="NO" composite="YES" />
+<Ingredient id="I23" spans="729~736" text="chicken" start_state="NO" composite="NO" />
+<Ingredient id="I24" spans="797~804" text="chicken" composite="NO" start_state="NO" />
+<Action id="A0" spans="308~315" text="Preheat" act_type="SetTool" />
+<Action id="A1" spans="355~360" text="Spray" act_type="Other" />
+<Action id="A2" spans="395~398" text="Mix" act_type="Mix" />
+<Action id="A3" spans="510~513" text="Set" act_type="Leave" />
+<Action id="A4" spans="521~525" text="Wash" act_type="Other" />
+<Action id="A5" spans="530~533" text="pat" act_type="Other" />
+<Action id="A6" spans="555~561" text="Spread" act_type="Combine" />
+<Action id="A7" spans="619~624" text="place" act_type="Put" />
+<Action id="A8" spans="670~676" text="Spread" act_type="Combine" />
+<Action id="A9" spans="741~746" text="cover" act_type="Combine" />
+<Action id="A10" spans="773~780" text="patting" act_type="Other" />
+<Action id="A11" spans="806~811" text="Place" act_type="Put" />
+<Action id="A12" spans="857~865" text="Sprinkle" act_type="Combine" />
+<Action id="A13" spans="908~913" text="spray" act_type="Other" />
+<Action id="A14" spans="946~950" text="Bake" act_type="Cook" />
+<Tool id="T0" spans="316~320" text="oven"  />
+<Tool id="T1" spans="363~374" text="baking dish"  />
+<Tool id="T2" spans="504~508" text="bowl"  />
+<Tool id="T3" spans="844~855" text="baking dish"  />
+<Tool id="T4" spans="380~393" text="cooking spray"  />
+<Tool id="T5" spans="931~944" text="cooking spray"  />
+<Tool id="T6" spans="968~972" text="oven"  />
+<Quantity id="Q0" spans="29~30" text="2"  />
+<Quantity id="Q1" spans="90~91" text="1"  />
+<Quantity id="Q3" spans="125~128" text="1/2"  />
+<Quantity id="Q4" spans="154~155" text="2"  />
+<Quantity id="Q5" spans="225~226" text="4"  />
+<Quantity id="Q6" spans="282~283" text="3"  />
+<Unit id="U0" spans="31~35" text="cups"  />
+<Unit id="U1" spans="92~95" text="cup"  />
+<Unit id="U2" spans="129~132" text="cup"  />
+<Unit id="U3" spans="156~165" text="teaspoons"  />
+<Unit id="U4" spans="284~295" text="tablespoons"  />
+<Flow id="F2" fromID="T0" fromText="oven" toID="A0" toText="Preheat" />
+<Flow id="F3" fromID="T1" fromText="baking dish" toID="A1" toText="Spray" />
+<Flow id="F4" fromID="T4" fromText="cooking spray" toID="A1" toText="Spray" />
+<Flow id="F5" fromID="I8" fromText="cheese-flavored crackers" toID="A2" toText="Mix" />
+<Flow id="F6" fromID="I9" fromText="French-fried onions" toID="A2" toText="Mix" />
+<Flow id="F7" toID="A2" toText="Mix" fromID="I10" fromText="Italian bread crumbs" />
+<Flow id="F8" toID="A2" toText="Mix" fromID="I11" fromText="sesame seeds" />
+<Flow id="F9" toID="A2" toText="Mix" fromID="I12" fromText="salt" />
+<Flow id="F10" fromID="I13" fromText="pepper" toID="A2" toText="Mix" />
+<Flow id="F12" toID="A2" toText="Mix" fromID="T2" fromText="bowl" />
+<Flow id="F13" fromID="A2" fromText="Mix" toID="A3" toText="Set" />
+<Flow id="F14" fromID="I14" fromText="chicken breasts" toID="A4" toText="Wash" />
+<Flow id="F15" fromID="A4" fromText="Wash" toID="A5" toText="pat" />
+<Flow id="F16" fromID="I15" fromText="mayonnaise" toID="A6" toText="Spread" />
+<Flow id="F17" fromID="I16" fromText="cracker mixture" toID="A7" toText="place" />
+<Flow id="F18" fromID="I17" fromText="mayonnaise" toID="A8" toText="Spread" />
+<Flow id="F19" fromID="I18" fromText="cracker mixture" toID="A9" toText="cover" />
+<Flow id="F20" fromID="I23" fromText="chicken" toID="A9" toText="cover" />
+<Flow id="F21" toID="A10" toText="patting" fromID="I18" fromText="cracker mixture" />
+<Flow id="F22" fromID="I19" fromText="chicken breasts" toID="A11" toText="Place" />
+<Flow id="F23" fromID="T3" fromText="baking dish" toID="A11" toText="Place" />
+<Flow id="F24" toID="A12" toText="Sprinkle" fromID="I20" fromText="cracker mixture" />
+<Flow id="F25" toID="A13" toText="spray" fromID="I21" fromText="chicken" />
+<Flow id="F26" toID="A13" toText="spray" fromID="T5" fromText="cooking spray" />
+<Flow id="F27" toID="A14" toText="Bake" fromID="T6" fromText="oven" />
+<Flow id="F28" toID="A14" toText="Bake" fromID="I22" fromText="chicken breasts" />
+<Flow id="F29" fromID="A2" fromText="Mix" toID="I16" toText="cracker mixture" />
+<Flow id="F30" fromID="A10" fromText="patting" toID="I24" toText="chicken" />
+<Flow id="F31" fromID="A5" fromText="pat" toID="A7" toText="place" />
+<Flow id="F32" fromID="A10" fromText="patting" toID="A11" toText="Place" />
+<Flow id="F33" fromID="A12" fromText="Sprinkle" toID="A13" toText="spray" />
+<Flow id="F34" toID="A14" toText="Bake" fromID="A11" fromText="Place" />
+<Coref id="C0" exp_aID="I0" exp_aText="cheese flavored crackers" exp_bID="I8" exp_bText="cheese-flavored crackers" />
+<Coref id="C1" exp_aID="I1" exp_aText="French-fried onions" exp_bID="I9" exp_bText="French-fried onions" />
+<Coref id="C2" exp_aID="I2" exp_aText="Italian bread crumbs" exp_bID="I10" exp_bText="Italian bread crumbs" />
+<Coref id="C3" exp_aID="I3" exp_aText="sesame seed" exp_bID="I11" exp_bText="sesame seeds" />
+<Coref id="C4" exp_aID="I4" exp_aText="salt" exp_bID="I12" exp_bText="salt" />
+<Coref id="C5" exp_aID="I5" exp_aText="black pepper" exp_bID="I13" exp_bText="pepper" />
+<Coref id="C6" exp_aID="I6" exp_aText="skinless, boneless chicken breast halves" exp_bID="I14" exp_bText="chicken breasts" />
+<Coref id="C7" exp_aID="I16" exp_aText="cracker mixture" exp_bID="I18" exp_bText="cracker mixture" />
+<Coref id="C8" exp_aID="I18" exp_aText="cracker mixture" exp_bID="I20" exp_bText="cracker mixture" />
+<Coref id="C9" exp_bID="I20" exp_bText="cracker mixture" exp_aID="I16" exp_aText="cracker mixture" />
+<Coref id="C10" exp_bID="I22" exp_bText="chicken breasts" exp_aID="I21" exp_aText="chicken" />
+<Coref id="C11" exp_bID="I21" exp_bText="chicken" exp_aID="I20" exp_aText="cracker mixture" />
+<Coref id="C12" exp_bID="T5" exp_bText="cooking spray" exp_aID="T4" exp_aText="cooking spray" />
+</TAGS>
+</recipeAnnotation>

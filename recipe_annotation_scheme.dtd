@@ -1,0 +1,26 @@
+<!ENTITY name "recipeAnnotation">
+
+<!ELEMENT Ingredient (#PCDATA) >
+<!ATTLIST Ingredient start_state (YES | NO) #REQUIRED "YES">
+<!ATTLIST Ingredient composite (YES | NO) #REQUIRED "NO">
+
+
+<!ELEMENT Action ( #PCDATA ) >
+<!ATTLIST Action act_type (Combine | Separate | Put | Remove | Cut | Mix | Cook | Serve | SetTool | Leave | Check | Other) >
+
+
+<!ELEMENT Tool ( #PCDATA ) >
+
+<!ELEMENT Quantity ( #PCDATA ) >
+
+<!ELEMENT Unit ( #PCDATA ) >
+
+
+
+<!ELEMENT Flow EMPTY >
+<!ATTLIST Flow arg0 IDREF prefix="from" #REQUIRED>
+<!ATTLIST Flow arg1 IDREF prefix="to" #REQUIRED>
+
+<!ELEMENT Coref EMPTY >
+<!ATTLIST Coref arg0 IDREF prefix="exp_a" #REQUIRED>
+<!ATTLIST Coref arg1 IDREF prefix="exp_b" #REQUIRED>
